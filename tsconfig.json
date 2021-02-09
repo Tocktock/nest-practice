@@ -11,5 +11,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true
-  }
+  },
+  "include": ["src/**/*", "test/whole.test.ts"],
+  "exclude": ["node_modules", "*.spec.ts"]
 }
